@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Web Suite]" parallel="classes">
+  <test thread-count="1" name="Web Tests(failed)" parallel="classes">
+    <classes>
+      <class name="tests.androidTests.TC_Regression_001_Phase_2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="TC_Regression_001_Phase_1"/>
+        </methods>
+      </class> <!-- tests.androidTests.TC_Regression_001_Phase_2 -->
+    </classes>
+  </test> <!-- Web Tests(failed) -->
+</suite> <!-- Failed suite [Web Suite] -->

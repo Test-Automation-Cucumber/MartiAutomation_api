@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [API Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="API Tests(failed)">
+    <classes>
+      <class name="tests.DemoRestApiTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="TestBookCheck"/>
+          <include name="idFieldReadOnly"/>
+          <include name="afterSuite"/>
+          <include name="VerifyRequiredFields"/>
+          <include name="afterClass"/>
+          <include name="smilar"/>
+          <include name="tearDown"/>
+          <include name="verifyCreateNewBook"/>
+          <include name="beforeClass"/>
+          <include name="VerifyEmptyFields"/>
+        </methods>
+      </class> <!-- tests.DemoRestApiTest -->
+    </classes>
+  </test> <!-- API Tests(failed) -->
+</suite> <!-- Failed suite [API Suite] -->
